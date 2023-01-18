@@ -1,6 +1,6 @@
 body {
   font-family: 'Sofia Sans Condensed', sans-serif;
-  background-color: rgb(52, 51, 51); 
+  background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
 }
 
 h1, h2, h3 {
@@ -15,7 +15,7 @@ header {
 }
 
 footer {
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url(../pics/tromso3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(../pics/tromso3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(253, 232, 206);
@@ -57,11 +57,11 @@ header a {
 }
 
 main {
-    background-color: grey;
+    background-color: rgb(136, 135, 154);
 }
 
 main h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     opacity: 0.7;
     line-height: 1.5;
@@ -70,6 +70,7 @@ main h3 {
 main p {
 text-align: justify;
 padding-right: 40px;
+font-size: 20px;
 }
 
 footer h3 {
@@ -120,7 +121,7 @@ a:hover {
 }
 
 .secondary-section {
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(103, 103, 114);
 }
 
 .container {
@@ -157,6 +158,10 @@ a:hover {
     padding-left: 40px;
 }
 
+.btn {
+    padding: 5px 1  5px;
+}
+
 @media (max-width: 960px) {
     header {
         padding: 80px 0px;
@@ -177,6 +182,10 @@ a:hover {
     header a {
         font-size: 15px;
         padding: 10px 20px;
+    }
+
+    main p {
+        font-size: 18px;
     }
 
     .grid {
