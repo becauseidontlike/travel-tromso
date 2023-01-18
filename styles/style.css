@@ -11,14 +11,13 @@ header {
     background-image:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url("../pics/tromso2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 240px;
+    padding: 200px;
 }
 
 footer {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url(../pics/tromso3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
     color: rgb(253, 232, 206);
 }
 
@@ -57,6 +56,21 @@ header a {
     margin-top: 32px;
 }
 
+main {
+    background-color: grey;
+}
+
+main h3 {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+main p {
+text-align: justify;
+padding-right: 40px;
+}
 
 footer h3 {
     font-size: 20px;
@@ -70,6 +84,7 @@ footer p {
     line-height: 1.5;
     text-align: justify;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer li {
@@ -81,6 +96,7 @@ footer li {
 
 footer ul {
     padding: 0;
+    text-align: justify;
 }
 
 footer a {
@@ -89,9 +105,15 @@ footer a {
     text-decoration: none;
 }
 
+footer .desc {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 section {
     max-width: 1600px;
     margin: 0;
+    padding: 100px 0;
 }
 
 .container {
@@ -102,7 +124,21 @@ section {
 
 .grid {
     display: grid;
+    grid-gap: 50px;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
     grid-template-columns: 1fr 1fr 2fr;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
 }
 
 @media (max-width: 960px) {
@@ -125,5 +161,27 @@ section {
     header a {
         font-size: 15px;
         padding: 10px 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .grid p {
+        padding: 0;
+    }
+
+    .grid img {
+        padding: 0;
+    }
+
+    .grid h3 {
+        padding: 0;
+    }
+
+    .grid li {
+        padding: 0;
     }
 }
