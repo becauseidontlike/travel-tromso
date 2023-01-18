@@ -16,6 +16,10 @@ img {
     height: auto;
 }
 
+iframe {
+    width: 100%;
+}
+
 header {
     background-image:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url("../pics/tromso.jpg");
     background-repeat: no-repeat;
@@ -70,16 +74,20 @@ main {
 }
 
 main h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     opacity: 0.7;
     line-height: 1.5;
 }
 
+main h2 {
+    font-size: 35px;
+}
+
 main p {
-text-align: justify;
-padding-right: 40px;
-font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+    font-size: 20px;
 }
 
 footer h3 {
@@ -157,7 +165,6 @@ button:hover {
 
 .card {
     background-color: rgb(163, 161, 161);
-    margin: 20px 0;
     border-radius: 4px;
 }
 
