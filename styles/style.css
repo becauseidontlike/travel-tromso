@@ -83,8 +83,7 @@ footer p {
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
+   
 }
 
 footer li {
@@ -116,6 +115,14 @@ section {
     padding: 100px 0;
 }
 
+a:hover {
+    color: chocolate;
+}
+
+.secondary-section {
+    background-color: rgb(146, 146, 146);
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -133,6 +140,15 @@ section {
 
 .grid-3 {
     grid-template-columns: 1fr 1fr 2fr;
+    padding-right: 50px;
+}
+
+.grid-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    grid-gap: 20px;
 }
 
 .photo {
@@ -182,6 +198,10 @@ section {
     }
 
     .grid li {
+        padding: 0;
+    }
+
+    .card img {
         padding: 0;
     }
 }
