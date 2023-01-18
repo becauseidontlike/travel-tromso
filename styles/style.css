@@ -146,6 +146,7 @@ a:hover {
 
 .grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     padding-top: 30px;
     padding-left: 90px;
     padding-right: 90px;
