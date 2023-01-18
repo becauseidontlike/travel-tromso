@@ -8,7 +8,7 @@ color: rgb(253, 232, 206);
 }
 
 header {
-    background-image:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url("../pics/tromso2.jpg");
+    background-image:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url("../pics/tromso.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -156,6 +156,10 @@ a:hover {
     width: 100%;
     height: auto;
     padding-left: 40px;
+}
+
+.card-text {
+padding: 0;
 }
 
 .btn {
