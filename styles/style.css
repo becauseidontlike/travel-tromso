@@ -213,4 +213,8 @@ a:hover {
     .card img {
         padding: 0;
     }
+
+    .card iframe {
+        display: none;
+    }
 }
